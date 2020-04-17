@@ -10,7 +10,9 @@ pip install --user --upgrade battlehack20
 
 (Depending on how your pip is set up, you may need to replace `pip` with `pip3`.) 
 
-Test it out by trying:
+## Running
+
+Run a game! Use:
 
 ```
 python3 run.py examplefuncsplayer examplefuncsplayer
