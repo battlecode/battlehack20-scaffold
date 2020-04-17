@@ -21,7 +21,7 @@ You should see a game between `examplefuncsplayer` and `examplefuncsplayer` bein
 NOTE: if you're on Windows and you get incomprehensible output, try instead:
 
 ```
-python3 run.py examplefuncsplayer examplefuncsplayer
+python3 run.py examplefuncsplayer examplefuncsplayer --raw-text
 ```
 
 If your code is in a directory `~/yourcode/coolplayer` then you can run it against examplefuncsplayer using
