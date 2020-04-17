@@ -17,6 +17,13 @@ python3 run.py examplefuncsplayer examplefuncsplayer
 ```
 
 You should see a game between `examplefuncsplayer` and `examplefuncsplayer` being played.
+
+NOTE: if you're on Windows and you get incomprehensible output, try instead:
+
+```
+python3 run.py examplefuncsplayer examplefuncsplayer
+```
+
 If your code is in a directory `~/yourcode/coolplayer` then you can run it against examplefuncsplayer using
 
 ```
