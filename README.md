@@ -5,7 +5,7 @@ Read more about Battlehack 2020 at https://bh2020.battlecode.org!
 ## Installation
 To install the engine as a local package, run
 ```
-$ pip install --user battlehack20
+$ pip install --user --upgrade battlehack20
 ```
 
 (Depending on how your pip is set up, you may need to replace `pip` with `pip3`.) 
