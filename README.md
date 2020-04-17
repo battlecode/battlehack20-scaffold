@@ -3,9 +3,9 @@
 Read more about Battlehack 2020 at https://bh2020.battlecode.org!
 
 ## Installation
-To install the engine as a local package, run
+To install the engine as a local package, open your [terminal](https://askubuntu.com/questions/38162/what-is-a-terminal-and-how-do-i-open-and-use-it) and run
 ```
-$ pip install --user --upgrade battlehack20
+pip install --user --upgrade battlehack20
 ```
 
 (Depending on how your pip is set up, you may need to replace `pip` with `pip3`.) 
@@ -13,14 +13,14 @@ $ pip install --user --upgrade battlehack20
 Test it out by trying:
 
 ```
-$ python3 run.py examplefuncsplayer examplefuncsplayer
+python3 run.py examplefuncsplayer examplefuncsplayer
 ```
 
 You should see a game between `examplefuncsplayer` and `examplefuncsplayer` being played.
 If your code is in a directory `~/yourcode/coolplayer` then you can run it against examplefuncsplayer using
 
 ```
-$ python3 run.py examplefuncsplayer ~/yourcode/coolplayer
+python3 run.py examplefuncsplayer ~/yourcode/coolplayer
 ```
 
 ## Running Interactively
@@ -28,13 +28,13 @@ $ python3 run.py examplefuncsplayer ~/yourcode/coolplayer
 Run
 
 ```
-$ python3 -i run.py examplefuncsplayer examplefuncsplayer
+python3 -i run.py examplefuncsplayer examplefuncsplayer
 ```
 
 This will open an interactive Python shell. There, you can run
 
 ```
->>> step()
+step()
 ```
 
 which advances the game 1 turn. This is very useful for debugging.
