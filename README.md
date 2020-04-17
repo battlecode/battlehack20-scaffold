@@ -20,7 +20,7 @@ python3 run.py examplefuncsplayer examplefuncsplayer
 
 You should see a game between `examplefuncsplayer` and `examplefuncsplayer` being played.
 
-NOTE: if you're on Windows and you get incomprehensible output, try instead:
+**If you're on Windows and you get incomprehensible output, try instead:**
 
 ```
 python3 run.py examplefuncsplayer examplefuncsplayer --raw-text
